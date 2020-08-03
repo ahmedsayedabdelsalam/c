@@ -8,4 +8,6 @@ int main(void)
     float volume = (4.0f / 3.0f) * PI * radiusInMeters * radiusInMeters * radiusInMeters;
 
     printf("the valume of %d meters radius sphere is %f\n", radiusInMeters, volume);
+
+    return 0;
 }
