@@ -3,7 +3,9 @@
 
 int main(void)
 {
-    int radiusInMeters = 10;
+    int radiusInMeters;
+    printf("Please Enter the Sphere Radiud: ");
+    scanf("%d", &radiusInMeters);
 
     float volume = (4.0f / 3.0f) * PI * radiusInMeters * radiusInMeters * radiusInMeters;
 
